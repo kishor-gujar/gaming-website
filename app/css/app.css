@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  background-color: #050510;
+  font-family: 'Open Sans', sans-serif; }
+
+.logo_text {
+  margin-left: 80px;
+  margin-top: -20px;
+  color: #888c92; }
+
+.profile {
+  background-color: #0b0b5b;
+  color: #fff;
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 20px; }
+  .profile h5 {
+    font-size: 18px; }
+  .profile .sky-blue {
+    color: #23afdd;
+    padding-left: 30px; }
+  .profile .bio {
+    font-size: 14px;
+    padding-top: 39px;
+    padding-bottom: 10px; }
+
+.sidebar-left {
+  background-color: #2b2b2e;
+  color: #fff;
+  margin-top: 50px; }
+  .sidebar-left ul {
+    padding: 20px 0 20px 0; }
+    .sidebar-left ul li {
+      list-style: none;
+      text-align: left; }
+      .sidebar-left ul li a {
+        margin-left: 20px; }
+      .sidebar-left ul li hr {
+        border-color: #c3c5c9; }
+
+.main-content {
+  margin-top: 50px; }
+
+.heading {
+  background-color: #222222;
+  color: #fff;
+  padding: 10px 0 10px 50px; }
+
+.sidebar-right {
+  margin-top: 50px; }
+  .sidebar-right .card {
+    border: none; }
+    .sidebar-right .card .cooming_soon {
+      background: url("../img/cooming soon.png"); }
+      .sidebar-right .card .cooming_soon p {
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        padding: 20px; }
+    .sidebar-right .card .card-header {
+      background-color: #23afdd;
+      color: #fff;
+      text-align: center; }
+    .sidebar-right .card .card-body {
+      padding: 10px;
+      font-size: 12px;
+      color: #fff;
+      background-color: #2b2b2e; }
+      .sidebar-right .card .card-body .teams {
+        margin: 10px 0 10px 0;
+        text-align: center; }
+      .sidebar-right .card .card-body .vs {
+        color: #3983bd;
+        font-size: 20px; }
+      .sidebar-right .card .card-body .date {
+        font-size: 10px; }
+
+.social {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: #10101f;
+  color: #fff; }
+  .social ul {
+    text-align: center;
+    padding: 20px; }
+    .social ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 15px;
+      padding: 15px;
+      text-align: left; }
+  .social p {
+    font-size: 18px; }
+  .social span {
+    font-size: 16px;
+    color: #868686; }
+
+/*# sourceMappingURL=maps/app.css.map */
