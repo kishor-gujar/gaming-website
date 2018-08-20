@@ -14,14 +14,20 @@ gulp.task('vendor', function() {
         '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
         '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
     ])
-    .pipe(gulp.dest('app/vendor/bootstrap'))
+    .pipe(gulp.dest('app/vendor/bootstrap'));
 
     // jQuery
     gulp.src([
         './node_modules/jquery/dist/*',
         '!./node_modules/jquery/dist/core.js'
     ])
-    .pipe(gulp.dest('app/vendor/jquery'))
+    .pipe(gulp.dest('app/vendor/jquery'));
+
+    // font-awesome
+    gulp.src([
+        './node_modules/font-awesome/**/*',
+    ])
+    .pipe(gulp.dest('app/vendor/font-awesome'));
 })
 
 

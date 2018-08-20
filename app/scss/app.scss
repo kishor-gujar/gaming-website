@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+$blue :  #40c2ed;
+$dark_blue: #0b0b22;
+
 body {
     background-color: #050510;
     font-family: 'Open Sans', sans-serif;
@@ -22,7 +25,7 @@ body {
         font-size: 18px;
     }
     .sky-blue {
-        color: #23afdd;
+        color: $blue;
         padding-left: 30px;
     }
     .bio {
@@ -55,12 +58,81 @@ body {
 
 .main-content {
     margin-top: 50px;
+
+    .vote {
+        background: $dark_blue;
+        color: #fff;    
+        .like {
+            // float: right;
+            padding-top: 25px;
+            font-size: 10px;
+        }
+        ol {
+            counter-reset: list;
+            padding: 30px 15px 30px 15px;
+            li {
+                list-style: none;
+                span {
+                    margin-left: 20px;
+                }
+            }
+            li:before {
+                content: counter(list) ") ";
+                counter-increment: list;
+            }
+           
+            hr {
+                border: solid 1px #3f474f;
+                margin-top: 25px;
+            }
+        }
+    }
+
+    .t {
+        background: $dark_blue;
+        color: #fff;
+        text-align: center;
+        padding: 30px 15px 30px 15px;
+
+        h5 {
+            line-height: 22px;
+        }
+        .percentage {
+            color: #4e95d3;
+        }
+
+        .fund {
+            background: $blue;
+            color: #fff;
+        }
+        .next-match {
+            background: #4e95d4;
+        }
+    }
 }
+
 .heading {
     background-color: #222222;
     color: #fff;
     padding: 10px 0 10px 50px;
 }
+.brand {
+    text-align: center;
+    background: #10101f;
+    margin: 15px;
+    padding: 10px 0 25px 0;
+    img {
+        height: 100px;
+    }
+    p {
+        color: #fff;
+    }
+    .buy_now {
+        background: $blue;
+        color: #fff;
+    }
+}
+
 .sidebar-right {
     margin-top: 50px;
     .card {
@@ -75,7 +147,7 @@ body {
             }
         }
         .card-header {
-            background-color: #23afdd;
+            background-color: $blue;
             color: #fff;
             text-align: center;
         }
@@ -89,7 +161,7 @@ body {
                 text-align: center;
             }
             .vs {
-                color: #3983bd;
+                color: $blue;
                 font-size: 20px;
             }
             .date {
@@ -100,7 +172,7 @@ body {
 }
 
 
-.social {
+.social-info {
     padding: 0;
     margin: 0;
     text-align: center;
@@ -111,10 +183,27 @@ body {
         padding: 20px;
         li {
             list-style: none;
+            list-style-type: none;
             display: inline-block;
             margin: 15px;
             padding: 15px;
             text-align: left;
+            .icon {
+                float: left;
+            }
+            .icon-content {
+                float: right;
+                margin-left: 20px;
+            }
+            i {
+                font-size: 2em;
+                width: 1.6em;
+                text-align: center;
+                line-height: 1.6em;
+                color: $blue;
+                border-radius: 0.8em;
+                background: #fff;
+            }
         }
     }
     p {
@@ -123,5 +212,48 @@ body {
     span {
         font-size: 16px;
         color: #868686;
+    }
+}
+
+
+.social {
+    ul {
+        hr {
+            border: solid 1px #eff2f4;
+        }
+        text-align: center;
+        li {
+            list-style: none;
+            list-style-type: none;
+            display: inline-block;
+            margin: 15px;
+            // padding: 15px;
+            text-align: left;
+            i {
+                font-size: 2em;
+                width: 1.6em;
+                text-align: center;
+                line-height: 1.6em;
+                color: #d0d1d2;
+                border-radius: 0.8em;
+                background: #fff;
+            }
+        }
+    }
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            color: #acacac;
+        }
+    }
+    .copyright {
+        color: #acacac;
     }
 }

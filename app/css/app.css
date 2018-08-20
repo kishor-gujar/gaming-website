@@ -18,7 +18,7 @@ body {
   .profile h5 {
     font-size: 18px; }
   .profile .sky-blue {
-    color: #23afdd;
+    color: #40c2ed;
     padding-left: 30px; }
   .profile .bio {
     font-size: 14px;
@@ -41,11 +41,57 @@ body {
 
 .main-content {
   margin-top: 50px; }
+  .main-content .vote {
+    background: #0b0b22;
+    color: #fff; }
+    .main-content .vote .like {
+      padding-top: 25px;
+      font-size: 10px; }
+    .main-content .vote ol {
+      counter-reset: list;
+      padding: 30px 15px 30px 15px; }
+      .main-content .vote ol li {
+        list-style: none; }
+        .main-content .vote ol li span {
+          margin-left: 20px; }
+      .main-content .vote ol li:before {
+        content: counter(list) ") ";
+        counter-increment: list; }
+      .main-content .vote ol hr {
+        border: solid 1px #3f474f;
+        margin-top: 25px; }
+  .main-content .t {
+    background: #0b0b22;
+    color: #fff;
+    text-align: center;
+    padding: 30px 15px 30px 15px; }
+    .main-content .t h5 {
+      line-height: 22px; }
+    .main-content .t .percentage {
+      color: #4e95d3; }
+    .main-content .t .fund {
+      background: #40c2ed;
+      color: #fff; }
+    .main-content .t .next-match {
+      background: #4e95d4; }
 
 .heading {
   background-color: #222222;
   color: #fff;
   padding: 10px 0 10px 50px; }
+
+.brand {
+  text-align: center;
+  background: #10101f;
+  margin: 15px;
+  padding: 10px 0 25px 0; }
+  .brand img {
+    height: 100px; }
+  .brand p {
+    color: #fff; }
+  .brand .buy_now {
+    background: #40c2ed;
+    color: #fff; }
 
 .sidebar-right {
   margin-top: 50px; }
@@ -59,7 +105,7 @@ body {
         color: white;
         padding: 20px; }
     .sidebar-right .card .card-header {
-      background-color: #23afdd;
+      background-color: #40c2ed;
       color: #fff;
       text-align: center; }
     .sidebar-right .card .card-body {
@@ -71,30 +117,74 @@ body {
         margin: 10px 0 10px 0;
         text-align: center; }
       .sidebar-right .card .card-body .vs {
-        color: #3983bd;
+        color: #40c2ed;
         font-size: 20px; }
       .sidebar-right .card .card-body .date {
         font-size: 10px; }
 
-.social {
+.social-info {
   padding: 0;
   margin: 0;
   text-align: center;
   background: #10101f;
   color: #fff; }
-  .social ul {
+  .social-info ul {
     text-align: center;
     padding: 20px; }
-    .social ul li {
+    .social-info ul li {
       list-style: none;
+      list-style-type: none;
       display: inline-block;
       margin: 15px;
       padding: 15px;
       text-align: left; }
-  .social p {
+      .social-info ul li .icon {
+        float: left; }
+      .social-info ul li .icon-content {
+        float: right;
+        margin-left: 20px; }
+      .social-info ul li i {
+        font-size: 2em;
+        width: 1.6em;
+        text-align: center;
+        line-height: 1.6em;
+        color: #40c2ed;
+        border-radius: 0.8em;
+        background: #fff; }
+  .social-info p {
     font-size: 18px; }
-  .social span {
+  .social-info span {
     font-size: 16px;
     color: #868686; }
+
+.social ul {
+  text-align: center; }
+  .social ul hr {
+    border: solid 1px #eff2f4; }
+  .social ul li {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    text-align: left; }
+    .social ul li i {
+      font-size: 2em;
+      width: 1.6em;
+      text-align: center;
+      line-height: 1.6em;
+      color: #d0d1d2;
+      border-radius: 0.8em;
+      background: #fff; }
+
+footer {
+  color: #fff;
+  text-align: center; }
+  footer ul {
+    padding: 0; }
+    footer ul li {
+      list-style: none;
+      color: #acacac; }
+  footer .copyright {
+    color: #acacac; }
 
 /*# sourceMappingURL=maps/app.css.map */
