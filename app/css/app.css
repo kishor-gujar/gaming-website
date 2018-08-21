@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: url("fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold.otf") format("opentype"), url("fonts/MyriadPro-Bold.woff") format("woff"), url("fonts/MyriadPro-Bold.ttf") format("truetype"), url("fonts/MyriadPro-Bold.svg#MyriadPro-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   background-color: #050510;
   font-family: 'Open Sans', sans-serif; }
@@ -41,6 +48,25 @@ body {
 
 .main-content {
   margin-top: 50px; }
+  .main-content .current-team {
+    margin: 30px; }
+    .main-content .current-team img {
+      margin: auto;
+      height: 80px; }
+    .main-content .current-team h5 {
+      color: #fff;
+      text-align: center;
+      margin-top: 20px; }
+  .main-content .badges {
+    margin: 30px; }
+    .main-content .badges img {
+      margin: auto;
+      height: 80px; }
+  .main-content .achivements {
+    margin: 30px; }
+    .main-content .achivements img {
+      margin: auto;
+      height: 100px; }
   .main-content .vote {
     background: #0b0b22;
     color: #fff; }
@@ -74,7 +100,8 @@ body {
       color: #fff; }
   .main-content .next-match {
     background: #4e95d4;
-    color: #fff; }
+    color: #fff;
+    font-family: 'Lato', sans-serif; }
     .main-content .next-match h5 {
       font-size: 15px;
       margin-top: 8px; }

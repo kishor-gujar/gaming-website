@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/MyriadPro-Bold.otf')  format('opentype'),
+           url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf')  format('truetype'), url('fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 $blue :  #40c2ed;
 $dark_blue: #0b0b22;
@@ -58,7 +66,33 @@ body {
 
 .main-content {
     margin-top: 50px;
+    .current-team {
+        margin: 30px;
+        img {
+            margin: auto;
+            height: 80px;
+        }
+        h5 {
+            color: #fff;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
 
+    .badges {
+        margin: 30px;
+        img {
+            margin: auto;
+            height: 80px;
+        }
+    }
+    .achivements {
+        margin: 30px;
+        img {
+            margin: auto;
+            height: 100px;
+        }
+    }
     .vote {
         background: $dark_blue;
         color: #fff;    
@@ -109,6 +143,7 @@ body {
     .next-match {
         background: #4e95d4;
         color: #fff;
+        font-family: 'Lato', sans-serif;
         h5 {
             font-size: 15px;
             margin-top: 8px;

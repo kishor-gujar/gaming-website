@@ -28,6 +28,13 @@ gulp.task('vendor', function() {
         './node_modules/font-awesome/**/*',
     ])
     .pipe(gulp.dest('app/vendor/font-awesome'));
+
+    // npm install slick-carousel
+    gulp.src([
+        './node_modules/slick-carousel/slick/**/*',
+    ])
+    .pipe(gulp.dest('app/vendor/slick-carousel'));
+
 })
 
 

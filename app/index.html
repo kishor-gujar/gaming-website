@@ -8,6 +8,8 @@
     <title>The gamer’s professional career begins here</title>
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick-theme.css">
     <link href="css/app.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.png" type="image/png">
 </head>
@@ -75,39 +77,123 @@
                                     <div class="row">
                                             <div class="col-md-6">
                                                     <h5 class="heading">Current Teams</h5>
+                                                    <div class="current-team">
+                                                        <div>
+                                                                <img src="img/current_team1.png" alt="Team 1">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/current_team2.png" alt="Team 2">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/current_team1.png" alt="Team 1">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/current_team2.png" alt="Team 2">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                       
+                                                      </div>
                                             </div>
                                             <div class="col-md-6">
                                                     <h5 class="heading">Past Teams</h5>
+                                                    <div class="current-team">
+                                                        <div>
+                                                                <img src="img/past_team1.png" alt="Team 1">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/past_team2.png" alt="Team 2">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/past_team1.png" alt="Team 1">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/past_team2.png" alt="Team 2">
+                                                                <h5>Team Name</h5>
+                                                        </div>
+                                                       
+                                                      </div>
                                             </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
                                                 <h5 class="heading">Badges</h5> 
+                                                <div class="badges">
+                                                        <div>
+                                                                <img src="img/badges1.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/badges2.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/badges3.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/badges4.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/badges1.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/badges2.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/badges3.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/badges4.png" alt="">
+                                                        </div>
+                                                </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
                                                 <h5 class="heading">Achivements</h5> 
+                                                <div class="achivements">
+                                                        <div>
+                                                                <img src="img/achivement1.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/achivement2.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/achivement3.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/achivement1.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/achivement2.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                                <img src="img/achivement3.png" alt="">
+                                                        </div>
+                                                </div>
                                         </div>
                                 </div>
                                 <div class="row">
                                                 <div class="col-md-6">
                                                         <h5 class="heading">t</h5>
-                                                        <div class="row t">
-                                                                <div class="col-6">
+                                                        <div class="row t m-0">
+                                                                <div class="col-6 p-0">
                                                                         <h5>H2H</h5>
                                                                         <h5>783,450 WGT</h5>
                                                                         <h5 class="percentage">(30%)</h5>
                                                                         <a class="btn fund" href="#">Fund</a>
                                                                 </div>
-                                                                <div class="col-6">
+                                                                <div class="col-6 p-0">
                                                                         <h5>Tornaments</h5>
                                                                         <h5>1,000,000 WGT</h5>
                                                                         <h5 class="percentage">(25%)</h5>
                                                                         <a class="btn fund" href="#">Fund</a>
                                                                 </div>
                                                         </div>
-                                                        <div class="row">
+                                                        <div class="row m-0">
                                                                 <div class="col-12 next-match">
                                                                         <h5>Next Match  CS :  GO     18 / 08 / 18 <a class="btn btn-sm btn-more" href="#">More</a> </h5>
                                                         </div>
@@ -313,6 +399,124 @@
     
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/slick-carousel/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.current-team').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+                ]
+          });
+
+          
+          $('.badges').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+                ]
+          });
+
+
+          
+          $('.achivements').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+                ]
+          });
+
+        });
+      </script>
+
 </body>
 
 </html>
