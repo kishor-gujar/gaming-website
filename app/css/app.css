@@ -62,8 +62,44 @@ body {
     .main-content .badges img {
       margin: auto;
       height: 80px; }
-  .main-content .achivements {
+  .main-content .tournaments {
     margin: 30px; }
+    .main-content .tournaments h5 {
+      color: white;
+      text-align: center;
+      padding-top: 10px; }
+    .main-content .tournaments .top {
+      padding-top: 75px; }
+    .main-content .tournaments .bottom {
+      padding-top: 25px; }
+      .main-content .tournaments .bottom h5 {
+        padding-top: 7px; }
+    .main-content .tournaments .watch {
+      background: #40c2ed;
+      color: #fff; }
+    .main-content .tournaments a {
+      padding-left: 15px; }
+    .main-content .tournaments .footer {
+      margin: 20px; }
+    .main-content .tournaments i {
+      font-size: 1.2em;
+      width: 1.6em;
+      text-align: center;
+      line-height: 1.6em;
+      color: #fff;
+      border-radius: 0.8em;
+      border: solid 1px #fff; }
+  .main-content .achivements {
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+    background-color: #0b0b22;
+    background-image: url("../img/achivement_bg.png"); }
+    .main-content .achivements h5 {
+      font-family: "MyriadPro-Bold", "Open Sans", "Lato", sans-serif; }
+    .main-content .achivements .rank {
+      margin-top: 20px;
+      color: red; }
     .main-content .achivements img {
       margin: auto;
       height: 100px; }
@@ -110,10 +146,32 @@ body {
       color: #fff;
       margin-left: 50px; }
 
+.sponsors {
+  background: #0b0b22;
+  margin: 35px;
+  padding: 30px; }
+  .sponsors img {
+    margin: auto;
+    height: 40px; }
+
 .heading {
   background-color: #222222;
   color: #fff;
   padding: 10px 0 10px 50px; }
+
+.heading-80 {
+  background-color: #222222;
+  color: #fff;
+  padding: 10px 0 10px 50px;
+  width: 80%; }
+
+.online {
+  height: 15px;
+  width: 15px;
+  background-color: #23dd2c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px; }
 
 .brand {
   text-align: center;

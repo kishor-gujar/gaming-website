@@ -86,13 +86,63 @@ body {
             height: 80px;
         }
     }
-    .achivements {
+    .tournaments {
         margin: 30px;
+        h5 {
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+           
+        }
+        .top {
+            padding-top: 75px;
+        }
+        .bottom {
+            padding-top: 25px;
+            h5 {
+                padding-top: 7px;
+            }
+        }
+        .watch {
+            background: $blue;
+            color: #fff;
+        }
+        a {
+            padding-left: 15px;
+        }
+        .footer  {
+            margin: 20px;
+        }
+        i {
+            font-size: 1.2em;
+            width: 1.6em;
+            text-align: center;
+            line-height: 1.6em;
+            color: #fff;
+            border-radius: 0.8em;
+            // background: #fff;
+            border: solid 1px #fff;
+        }
+    }
+    .achivements {
+        color: #fff;
+        text-align: center;
+        margin: 30px;
+        background-color: $dark_blue;
+        background-image: url('../img/achivement_bg.png');
+        h5 {
+            font-family: 'MyriadPro-Bold', 'Open Sans', 'Lato', sans-serif,
+        }
+        .rank {
+            margin-top: 20px;
+            color: red;
+        }
         img {
             margin: auto;
             height: 100px;
         }
     }
+  
     .vote {
         background: $dark_blue;
         color: #fff;    
@@ -157,10 +207,36 @@ body {
     }
 }
 
+.sponsors {
+    background: $dark_blue;
+    margin: 35px;
+    padding: 30px;
+    img {
+        margin: auto;
+        height: 40px;
+    }
+}
+
 .heading {
     background-color: #222222;
     color: #fff;
     padding: 10px 0 10px 50px;
+}
+
+.heading-80 {
+    background-color: #222222;
+    color: #fff;
+    padding: 10px 0 10px 50px;
+    width: 80%;
+}
+
+.online {
+    height: 15px;
+    width: 15px;
+    background-color: #23dd2c;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
 }
 .brand {
     text-align: center;
