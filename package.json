@@ -21,6 +21,7 @@
     "font-awesome": "^4.7.0",
     "gulp-flatmap": "^1.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
   }
 }

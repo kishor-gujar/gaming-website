@@ -105,8 +105,19 @@ body {
             background: $blue;
             color: #fff;
         }
-        .next-match {
-            background: #4e95d4;
+    }
+    .next-match {
+        background: #4e95d4;
+        color: #fff;
+        h5 {
+            font-size: 15px;
+            margin-top: 8px;
+        }
+        .btn-more {
+            background: #d61a1e;
+            color: #fff;
+            // float: right;   
+            margin-left: 50px;
         }
     }
 }

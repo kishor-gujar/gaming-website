@@ -72,8 +72,16 @@ body {
     .main-content .t .fund {
       background: #40c2ed;
       color: #fff; }
-    .main-content .t .next-match {
-      background: #4e95d4; }
+  .main-content .next-match {
+    background: #4e95d4;
+    color: #fff; }
+    .main-content .next-match h5 {
+      font-size: 15px;
+      margin-top: 8px; }
+    .main-content .next-match .btn-more {
+      background: #d61a1e;
+      color: #fff;
+      margin-left: 50px; }
 
 .heading {
   background-color: #222222;
